@@ -22,3 +22,15 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 Code is licensed under the Apache 2.0 license.
 
 
+Documentation
+=============
+
+Part 1
+------
+- `dracula.html` has inline styling, so I had to move my `<link>` to below it to allow it to overwrite theirs.
+
+- Changed the background to #f1f1d4, a colour that more resembles parchment paper
+- Changed the font-family of the entire page to a more rounded, larger font (Palatino)
+- Increased the line-height of paragraphs to 1.5x for easier readability
+- Added `mix-blend-mode: multiply` to images to remove white backgrounds
+- Removed background color from `a` tags because why were they even there??

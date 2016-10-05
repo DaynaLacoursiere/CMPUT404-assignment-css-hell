@@ -1,0 +1,48 @@
+body{
+  background: #f1f1d4;
+  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+a{
+  background-color: transparent;
+}
+
+a:link{ 
+  background-color: transparent;
+}
+
+a:visited{ 
+  background-color: transparent;
+}
+
+p{
+  line-height: 150%;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+h5{
+
+}
+
+h6{
+
+}
+
+img{
+  mix-blend-mode: multiply;
+}
