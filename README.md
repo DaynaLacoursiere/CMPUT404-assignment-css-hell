@@ -34,3 +34,6 @@ Part 1
 - Increased the line-height of paragraphs to 1.5x for easier readability
 - Added `mix-blend-mode: multiply` to images to remove white backgrounds
 - Removed background color from `a` tags because why were they even there??
+- Changed the color of links to brown so they don't stand out so distractingly
+- Made the `p` font size a bit bigger
+- Italicized `pre`
