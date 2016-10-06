@@ -37,3 +37,7 @@ Part 1
 - Changed the color of links to brown so they don't stand out so distractingly
 - Made the `p` font size a bit bigger
 - Italicized `pre`
+- Added a margin to `body` and `pre` to homogenize the three pages
+- Added some styles to make the Pride and Prejudice Contents table look nicer including adding media queries to have an appropriate number of columns at different screen widths
+- I don't think I can do anything to improve the look of the Dracula Contents table without modifying the html
+
