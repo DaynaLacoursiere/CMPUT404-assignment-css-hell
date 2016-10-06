@@ -27,7 +27,7 @@ Documentation
 
 Part 1
 ------
-- `dracula.html` has inline styling, so I had to move my `<link>` to below it to allow it to overwrite theirs.
+- `dracula.html` and `vatsyayana.html` has inline styling, so I had to move my `<link>` to below it to allow it to overwrite theirs.
 
 - Changed the background to #f1f1d4, a colour that more resembles parchment paper
 - Changed the font-family of the entire page to a more rounded, larger font (Palatino)

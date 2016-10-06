@@ -1,6 +1,7 @@
 body{
   background: #f1f1d4;
   font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  margin: 5%;
 }
 
 a{
@@ -58,4 +59,41 @@ img{
 
 pre{
   font-style: italic;
+  margin-left: 10%;
+}
+
+
+/*Pride and Prejudice Specific Styles*/
+blockquote{
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+}
+blockquote > p {
+  display: none;
+}
+blockquote > p.toc{
+  display: inherit;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+blockquote > p.toc:nth-child(1){
+  column-span: all;
+  margin-bottom: 5%;
+}
+
+@media (min-width: 400px){
+  blockquote{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media (min-width: 600px){
+  blockquote{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  }
 }
