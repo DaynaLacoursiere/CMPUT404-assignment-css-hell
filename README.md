@@ -41,3 +41,7 @@ Part 1
 - Added some styles to make the Pride and Prejudice Contents table look nicer including adding media queries to have an appropriate number of columns at different screen widths
 - I don't think I can do anything to improve the look of the Dracula Contents table without modifying the html
 
+Part 2
+------
+- Got help creating js-less tabs from https://css-tricks.com/functional-css-tabs-revisited/
+- 
