@@ -44,4 +44,4 @@ Part 1
 Part 2
 ------
 - Got help creating js-less tabs from https://css-tricks.com/functional-css-tabs-revisited/
-- 
+- Ideas from image in inspiration/

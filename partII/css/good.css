@@ -4,10 +4,18 @@ html, body{
   width:100%;height:100%;
   overflow: hidden;
   margin:0;
+  background:#333;
 }
 
 .page-container{
 
+}
+
+.center-section-container{
+  max-height:900px;max-width:900px;
+  position: absolute;
+  left:0;right:0;bottom:0;top:0;
+  margin:auto;
 }
 
 /* General Section Styles */
