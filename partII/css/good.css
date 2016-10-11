@@ -51,6 +51,11 @@ html, body{
   width: 225px;
   border: 1px solid #ccc;
   background: #fff;
+  padding:16px;
+}
+
+.about-me-section h2{
+  margin-top: 0;
 }
 
 
@@ -63,10 +68,32 @@ html, body{
 
 
 /* Professional History */
-.prof-history{
-
+.prof-history .resume{
+  overflow-y:auto;
 }
 
+.prof-history .resume-section{
+  margin-left:16px;
+}
+.resume h3{
+  text-decoration: underline;
+  margin-top: 32px;
+}
+.resume h3:first-child{
+  margin-top:0;
+}
+.resume-section h4{
+  margin-bottom:0;
+}
+.resume-section p {
+  margin: 0;
+}
+.resume-section ul{
+  margin:0;
+}
+.resume-section .position{
+  font-style: italic;
+}
 
 /* Who am I? */
 .who-am-i{
@@ -125,5 +152,5 @@ html, body{
   z-index: 1;
 }
 [type=radio]:checked ~ label {
-  background: #580557;
+  background: #a922ac;
 }
