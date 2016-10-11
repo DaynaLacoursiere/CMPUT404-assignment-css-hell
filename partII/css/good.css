@@ -49,15 +49,28 @@ html, body{
   right:50px;top:50px;
   height: 40%;
   width: 225px;
-  border: 1px solid #ccc;
-  background: #fff;
-  padding:16px;
+  background: rgba(0,0,0,0.75);
+  border-radius: 10px;
+  border:none;
+  color: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
-.about-me-section h2{
+.about-me-section h3{
+  margin-top: 0;
+  margin-bottom: 16px;
+  margin-left: 16px;
+}
+.about-me-section ul{
+  margin-left: 16px;
+  margin-right: 16px;
   margin-top: 0;
 }
 
+.about-me-section .scroller{
+  margin-top: 40px;
+}
 
 /* Tabs Section */
 .tabs-container{
@@ -68,9 +81,6 @@ html, body{
 
 
 /* Professional History */
-.prof-history .resume{
-  overflow-y:auto;
-}
 
 .prof-history .resume-section{
   margin-left:16px;
@@ -141,15 +151,28 @@ html, body{
 .tab [type=radio]{
   display: none;
 }
+
 .content{
   position: absolute;
-  top: 28px;left: 0;right:0;bottom:0;
-  background: white;
+  top: 28px;left:0;right:0;bottom:20px;
+  background: rgba(0,0,0,0.75);
+  border-radius: 10px;
+  color: #fff;
   padding: 20px;
   height:100%;
+  display:none;
+  overflow: hidden;
 }
+
+.scroller{
+  position: absolute;
+  left:0;right:-16px;top:0;bottom:0;
+  overflow-y: auto;
+}
+
 [type=radio]:checked ~ label ~ .content{
   z-index: 1;
+  display: inline;
 }
 [type=radio]:checked ~ label {
   background: #a922ac;
