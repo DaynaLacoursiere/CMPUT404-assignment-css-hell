@@ -69,19 +69,27 @@ a{
   margin-top: 0;
 }
 .about-me-tab ul{
-  margin-top: 60px;
+  /*margin-top: 60px;*/
   width:85%;
 }
 
-.about-me-section h3{
-  margin-top: 0;
+.about-me-section .highlighter{
+  width:116px;
+  background:#a922ac;
+}
+
+.about-me-section h4{
+  margin-top: 16px;
   margin-bottom: 16px;
   margin-left: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 .about-me-section ul{
-  margin-left: 16px;
   margin-right: 16px;
-  margin-top: 0;
+  padding-left: 16px;
+  margin-top: 16px;
+  list-style: none;
 }
 .about-me-section li{
   margin-bottom:8px;
@@ -104,6 +112,10 @@ a{
 .prof-history .resume-section{
   margin-left:16px;
 }
+.prof-history .scroller{
+  margin-top:16px;
+  margin-bottom: 16px;
+}
 .resume h3{
   text-decoration: underline;
   margin-top: 32px;
@@ -125,14 +137,14 @@ a{
 }
 
 /* Who am I? */
-.who-am-i{
-
+.who-am-i p{
+  margin:16px;
 }
 
 
 /* Offers */
-.offers{
-
+.offers ul, .offers h4{
+  margin-left: 16px;
 }
 
 
@@ -214,8 +226,4 @@ a{
     max-width: calc(100% - 100px);
   }
 
-}
-
-@media (max-width:460px){
-  
 }
