@@ -51,7 +51,7 @@ a{
 .about-me-section{
   position: absolute;
   right:50px;top:50px;
-  height: 44.7%;
+  height: 44%;
   width: 225px;
   background: rgba(0,0,0,0.75);
   border-radius: 10px;
@@ -96,7 +96,7 @@ a{
 }
 
 .about-me-section .scroller{
-  margin-top: 40px;
+  margin-top: 46px;
 }
 
 /* Tabs Section */
@@ -110,7 +110,7 @@ a{
 /* Professional History */
 
 .prof-history .resume-section{
-  margin-left:16px;
+  margin-left:32px;
 }
 .prof-history .scroller{
   margin-top:16px;
@@ -119,6 +119,7 @@ a{
 .resume h3{
   text-decoration: underline;
   margin-top: 32px;
+  margin-left: 16px;
 }
 .resume h3:first-child{
   margin-top:0;
@@ -144,7 +145,7 @@ a{
 
 /* Offers */
 .offers ul, .offers h4{
-  margin-left: 16px;
+  margin: 16px;
 }
 
 
@@ -167,7 +168,7 @@ a{
   padding: 10px 0;
   margin-left: -1px;
   position: relative;
-  left: 1px;top: -40px;
+  left: 1px;top: -46px;
   width: 100%;
   color: #fff;
   text-align: center;

@@ -27,8 +27,6 @@ Documentation
 
 Part 1
 ------
-- `dracula.html` and `vatsyayana.html` has inline styling, so I had to move my `<link>` to below it to allow it to overwrite theirs.
-
 - Changed the background to #f1f1d4, a colour that more resembles parchment paper
 - Changed the font-family of the entire page to a more rounded, larger font (Palatino)
 - Increased the line-height of paragraphs to 1.5x for easier readability
@@ -45,4 +43,8 @@ Part 1
 Part 2
 ------
 - Got help creating js-less tabs from https://css-tricks.com/functional-css-tabs-revisited/
-- Ideas from image in inspiration/
+- Ideas from image in `inspiration/`
+
+Access pages from `partII/` directory
+To see the good page, you can just run a server and it'll serve you `index.html` with good.css
+I also have it set up so if you add `/html/good.html` or `/html/bad.html`, you will be able to view the respective pages.
