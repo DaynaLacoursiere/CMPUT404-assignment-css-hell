@@ -8,14 +8,15 @@ html, body{
   margin:0;
   font-family: 'Gloria Hallelujah', cursive;
 
-  background:black;
+  background-image:url(http://cdn.wallpapersafari.com/1/92/43HrB7.gif);
+  background-size:cover;
 }
 
 a{
   color:white;
 }
 p:nth-child(even){
-  color:#ff0;
+  color:#0f0;
 }
 
 .center-section-container{

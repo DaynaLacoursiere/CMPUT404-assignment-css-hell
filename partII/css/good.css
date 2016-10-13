@@ -141,6 +141,9 @@ a{
 .who-am-i p{
   margin:16px;
 }
+.who-am-i h4{
+  margin: 16px;
+}
 
 
 /* Offers */
@@ -168,7 +171,7 @@ a{
   padding: 10px 0;
   margin-left: -1px;
   position: relative;
-  left: 1px;top: -46px;
+  left: 1px;top: -52px;
   width: 100%;
   color: #fff;
   text-align: center;
